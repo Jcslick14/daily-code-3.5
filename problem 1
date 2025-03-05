@@ -1,0 +1,12 @@
+def sum_even(x):
+    x=10
+    sum = 0
+    for i in range(1, x):
+        if i % 2 == 0: #divides and keeps remainder
+            #print("this is even")
+            sum += i #only adds even numbers
+        #else:
+            #print("this is odd")
+        return sum
+   
+print(sum_even(10))
